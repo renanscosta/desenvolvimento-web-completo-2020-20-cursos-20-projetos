@@ -1,0 +1,30 @@
+#principal{
+    width: 920px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;/*aumenta o espaço da "caixa" do texto*/
+    background: url(../imagens/menu.png) no-repeat left bottom;
+}
+a:hover, .selecionado a{
+    background-position: right bottom;
+    color: #FFF;
+}
+#home .home a,
+#sobre .sobre a{
+    background-position: right bottom;
+    color: #FFF;
+}
+.clear{
+    clear: both;
+}

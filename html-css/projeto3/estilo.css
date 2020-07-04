@@ -1,0 +1,37 @@
+#principal{
+    border: 1px solid red;
+    width: 920px;
+}
+.conteudo{
+    padding: 5px;
+    border: 2px solid;
+    width: 250px;
+    margin: 10px 10px 10px;
+    background-color: #e5e5e5;
+    float: left;
+}
+.imagem{
+    padding: 5px;
+    border: 1px solid;
+    width: 200px;
+    margin: 5px;
+    float: left;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/*
+.conteudo-2{
+    padding: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    background-color: seashell;
+    float: left;
+}
+*/
+.clear{
+    clear: both;
+}

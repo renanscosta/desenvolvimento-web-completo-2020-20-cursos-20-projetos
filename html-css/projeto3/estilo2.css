@@ -1,0 +1,17 @@
+#principal{
+    width: 800px;
+    background: #FFF;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+body{
+    background: #007fc7;
+}
+p{
+    width: 300px;
+}
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIV-SPAN</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+
+        #topo{
+            background-color: blue;
+        }
+        #conteudo{
+            background-color: red;
+        }
+
+        .produto{
+            background-color: gray;
+            margin: 10px;
+        }
+
+        .borda{
+            border: 1px solid;
+        }
+
+        .formatacao{
+            color: darkblue;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: darkgray;
+        }
+
+        </style>
+
+    </head>
+    <body>
+        <div id="topo">
+            <img src="imagens/amazon.png" width="200">
+            <ul>
+                <li>Home</li>
+                <li>Contato</li>
+                <li>Quem somos</li>
+            </ul>
+        </div>
+        <div id="conteudo">
+            <div class="produto">Produto 1</div>
+            <div class="produto">Produto 2</div>
+            <div class="produto">Produto 3</div>
+
+        </div>
+        <div>
+            <p class="formatacao">
+                Lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div>
+            <span class="borda">Todos os </span> direitos reservados
+        </div>
+
+    </body>
+</html>
